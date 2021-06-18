@@ -22,8 +22,8 @@ from mayavi import mlab
 
 from kuibit import visualize_mayavi as viz
 
-class TestVisualizeMayavi(unittest.TestCase):
 
+class TestVisualizeMayavi(unittest.TestCase):
     def test_enable_mayavi_offscreen_rendering(self):
         viz.disable_interactive_window()
 

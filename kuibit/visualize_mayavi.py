@@ -29,6 +29,7 @@ import numpy as np
 
 from kuibit.cactus_horizons import OneHorizon
 
+
 def disable_interactive_window():
     """Disable mayavi interactive window.
 
@@ -38,6 +39,7 @@ def disable_interactive_window():
 
     """
     mlab.options.offscreen = True
+
 
 def create_figure(
     background_color=None, foreground_color=None, size=(1920, 1080), **kwargs
@@ -168,7 +170,12 @@ def plot_horizon_vector(
 
     vector = mlab.pipeline.vectors(
         mlab.pipeline.vector_scatter(
-            cent_x, cent_y, cent_z, var_x, var_y, var_z,
+            cent_x,
+            cent_y,
+            cent_z,
+            var_x,
+            var_y,
+            var_z,
         ),
         color=color,
     )
@@ -195,6 +202,7 @@ def add_text_to_figure_corner(text, color=(1, 1, 1), **kwargs):
     ``"""
 
     return mlab.text(0.0, 0.93, text, color=color, **kwargs)
+
 
 def save(outputpath, figure_extension, **kwargs):
     """Save figure to outputpath with figure_extension.

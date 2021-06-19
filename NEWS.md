@@ -26,14 +26,21 @@ the current state of the simulation is performed. If the simulation changes
 (e.g., new checkpoints are added), this will result in errors. In that case, a
 new pickle file must be produced.
 
+#### New module: visualize_mayavi
+
+The `visualize_mayavi` module provides functions to render 3D plots with
+`mayavi`. At the moment, only the basic infrastructure and simple plots with
+apparent horizons are available, but the more will be added in the future.
 
 #### General
+
 - `SimDir` can be saved to disk with the method `save` and read with the
    function `load_SimDir`. This is useful to work with a simulation that has
    finished.
 - Examples can now use pickles.
 
 #### Breaking changes
+
 - The `ignore` parameter in `SimDir` has been renamed to `ignored_dirs`.
 
 ## Version 1.2.0 (1 June 2021)

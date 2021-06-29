@@ -39,6 +39,12 @@ apparent horizons are available, but the more will be added in the future.
    finished.
 - Examples can now use pickles.
 
+#### Features
+- `time_at_maximum` and `time_at_minimum` in `TimeSeries` can now take the
+  optional argument `absolute`.
+- Added `x_at_minimum_y` and `x_at_maximum_y` to `BaseNumerical`.
+
+
 #### Breaking changes
 
 - The `ignore` parameter in `SimDir` has been renamed to `ignored_dirs`.

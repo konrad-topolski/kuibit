@@ -43,7 +43,7 @@ apparent horizons are available, but the more will be added in the future.
 - `time_at_maximum` and `time_at_minimum` in `TimeSeries` can now take the
   optional argument `absolute`.
 - Added `x_at_minimum_y` and `x_at_maximum_y` to `BaseNumerical`.
-
+- Added `coordinates_at_maximum` and `coordinates_at_minimum` for grid data.
 
 #### Breaking changes
 

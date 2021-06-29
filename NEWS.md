@@ -54,6 +54,12 @@ apparent horizons are available, but the more will be added in the future.
 - `plot_colorbar` does not steal axis focus anymore.
 
 
+#### New examples
+
+Scripts:
+
+* `print_grid_point.py`
+
 ## Version 1.2.0 (1 June 2021)
 
 #### New module: visualize_matplotlib

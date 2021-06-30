@@ -26,6 +26,11 @@ the current state of the simulation is performed. If the simulation changes
 (e.g., new checkpoints are added), this will result in errors. In that case, a
 new pickle file must be produced.
 
+#### Masked data
+
+- `Series`, `UniformGridData`, `HierarhicalGridData` have a new method
+  `is_masked`.
+
 #### New module: visualize_mayavi
 
 The `visualize_mayavi` module provides functions to render 3D plots with
@@ -40,6 +45,7 @@ apparent horizons are available, but the more will be added in the future.
 - Examples can now use pickles.
 
 #### Features
+
 - `time_at_maximum` and `time_at_minimum` in `TimeSeries` can now take the
   optional argument `absolute`.
 - Added `x_at_minimum_y` and `x_at_maximum_y` to `BaseNumerical`.
@@ -53,7 +59,6 @@ apparent horizons are available, but the more will be added in the future.
 #### Bug fixes
 
 - `plot_colorbar` does not steal axis focus anymore.
-
 
 #### New examples
 

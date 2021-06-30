@@ -44,6 +44,7 @@ apparent horizons are available, but the more will be added in the future.
   optional argument `absolute`.
 - Added `x_at_minimum_y` and `x_at_maximum_y` to `BaseNumerical`.
 - Added `coordinates_at_maximum` and `coordinates_at_minimum` for grid data.
+- Added `HierarchicalGridData.is_complex()`.
 
 #### Breaking changes
 

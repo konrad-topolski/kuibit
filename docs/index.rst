@@ -94,6 +94,7 @@ Usage
    cactus_multipoles.rst
    cactus_horizons.rst
    cactus_waves.rst
+   masks.rst
    gw_utils.rst
    gw_mismatch.rst
    grid_data.rst
@@ -189,6 +190,7 @@ Reference material (classes, functions, ...)
 .. toctree::
    :maxdepth: 1
 
+   recommendation_examples.rst
    testimonials.rst
    features.rst
    faq.rst
@@ -204,6 +206,7 @@ Reference material (classes, functions, ...)
    gw_utils_ref.rst
    gw_mismatch_ref.rst
    grid_data_ref.rst
+   masks_ref.rst
    sensitivity_curves_ref.rst
    unitconv_ref.rst
    visualize_matplotlib_ref.rst

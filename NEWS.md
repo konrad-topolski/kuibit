@@ -80,6 +80,7 @@ apparent horizons are available, but the more will be added in the future.
 #### Bug fixes
 
 - `plot_colorbar` does not steal axis focus anymore.
+- The legend in `plot_psi4_lm` was corrected.
 
 #### New examples
 

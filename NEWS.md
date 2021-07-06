@@ -81,6 +81,7 @@ apparent horizons are available, but the more will be added in the future.
 
 - `plot_colorbar` does not steal axis focus anymore.
 - The legend in `plot_psi4_lm` was corrected.
+- `visualize_matplotlib.save` now correctly supports the `figure` argument.
 
 #### New examples
 

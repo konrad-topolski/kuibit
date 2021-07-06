@@ -72,6 +72,9 @@ apparent horizons are available, but the more will be added in the future.
 - Added `x_at_minimum_y` and `x_at_maximum_y` to `BaseNumerical`.
 - Added `coordinates_at_maximum` and `coordinates_at_minimum` for grid data.
 - Added `HierarchicalGridData.is_complex()`.
+- Added `tikz_clean_figure` to `visualize_matplotlib.save`, to
+  `argparse_helper.add_figure`, and to examples. This can be used to reduce
+  the size of output `tikz` files.
 
 #### Breaking changes
 

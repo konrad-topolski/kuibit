@@ -24,8 +24,8 @@ The functions provided are:
 
 """
 
-from mayavi import mlab
 import numpy as np
+from mayavi import mlab
 
 from kuibit.cactus_horizons import OneHorizon
 

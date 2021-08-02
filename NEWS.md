@@ -64,6 +64,7 @@ apparent horizons are available, but the more will be added in the future.
    function `load_SimDir`. This is useful to work with a simulation that has
    finished.
 - Examples can now use pickles.
+- New CI workflow: linting.
 
 #### Features
 

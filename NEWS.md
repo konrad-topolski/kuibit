@@ -76,6 +76,7 @@ apparent horizons are available, but the more will be added in the future.
 - Added `tikz_clean_figure` to `visualize_matplotlib.save`, to
   `argparse_helper.add_figure`, and to examples. This can be used to reduce
   the size of output `tikz` files.
+- Added `clear_cache` in `OneGridFunction`.
 
 #### Breaking changes
 

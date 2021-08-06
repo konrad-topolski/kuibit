@@ -90,6 +90,7 @@ apparent horizons are available, but the more will be added in the future.
 - `plot_strain_lm.py` no longer crashes when `window_args` is not provided.
 - `HierarchicalGridData` now owns the components.
 - Clear `OneGridFunction` cache in `grid_var` to avoid death by OOM.
+- Uniform constructor of `GridSeries` with constructors of other `Series`.
 
 #### New examples
 
